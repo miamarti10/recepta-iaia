@@ -1,34 +1,65 @@
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-family: 'Lato', sans-serif;
+.cabecera {
+  align-items: center;
+  position: top;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right:25%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+ 
   }
 
   .titulo {
+    color: white;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    
 
   }
   .paragraph {
-    
+
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
     font-family: 'Lato', sans-serif;
+    
+
+  }
+
+  h2 {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right:25%;
+  font-family: 'Lato', sans-serif;
+ 
   }
 
 #tiempo_1 { display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 25%;
+  
 }
 
 #tiempo_2 { display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-}}
+  width: 25%;
+ 
+}
+
+li {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  font-family: 'Lato', sans-serif;
+  
+}
